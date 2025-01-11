@@ -3,19 +3,40 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #e1e1e1;
   --foreground: #171717;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
 }
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.price-area{
+  .cifra{
+    
+  }
+  input{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: 5px;
+  }
+}
+
+.qtd-area{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  button{
+    font-size: 22px;
+    font-weight: bold;
+    width: 30px;
+  }
+}
+
+.container-height{
+  max-height: 93vh;
+  overflow: auto;
 }
