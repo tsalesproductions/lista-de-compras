@@ -13,30 +13,29 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.price-area{
-  .cifra{
-    
-  }
-  input{
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-    margin-left: 5px;
-  }
+.price-area input {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  margin-left: 5px;
 }
-
-.qtd-area{
+.qtd-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 5px;
-  button{
-    font-size: 22px;
-    font-weight: bold;
-    width: 30px;
-  }
 }
-
-.container-height{
+.qtd-area button {
+  font-size: 22px;
+  font-weight: bold;
+  width: 30px;
+}
+.container-height {
   max-height: 93vh;
   overflow: auto;
 }
