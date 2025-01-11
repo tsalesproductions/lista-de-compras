@@ -67,6 +67,11 @@ export default function Page({}) {
     localStorage.setItem('list', JSON.stringify(list));
 
     updateTotals();
+
+    // Reset form
+    inputs[0].value = '';
+    inputs[1].value = 1;
+    inputs[2].value = '';
   }
 
   function deleteProduct(id) {
