@@ -164,7 +164,7 @@ export default function Page({}) {
               
               <div className="price-area">
                 <span className="cifra">R$</span>
-                <input type="number" name='price' min="1" className="w-16 p-1 border rounded border-left" placeholder="" />
+                <input type="text" name='price' min="1" className="w-16 p-1 border rounded border-left" placeholder="" />
               </div>
 
               <button type='submit' className="bg-green-500 text-white px-2 py-1 rounded">Salvar</button>
